@@ -1,0 +1,25 @@
+{
+  "name": "luckjmg.github.io",
+  "version": "1.0.0",
+  "description": "My personal portfolio web",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuckJMG/luckjmg.github.io.git"
+  },
+  "author": "LuckJMG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuckJMG/luckjmg.github.io/issues"
+  },
+  "homepage": "https://github.com/LuckJMG/luckjmg.github.io#readme",
+  "dependencies": {
+    "sass": "^1.58.2"
+  }
+}
