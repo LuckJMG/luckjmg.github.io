@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap");
+* {
+  background: #282a36;
+  box-sizing: border-box;
+  color: #f8f8f2;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  align-items: center;
+  border-bottom: 0.1em solid #f8f8f2;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1em;
+  padding: 0.5em 1em;
+  position: sticky;
+}
+nav .logo {
+  align-items: center;
+  display: flex;
+}
+nav .logo img {
+  border-radius: 2em;
+  margin-right: 1em;
+  width: 3em;
+}
+nav .logo h2 {
+  display: inline;
+  font-family: "Fira Code", monospace;
+}
+nav ul {
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  transform: translateX(-50%);
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 1em;
+}
+nav ul li:hover {
+  background-color: #44475a;
+}
+nav ul li:hover a {
+  background-color: #44475a;
+}
+nav a {
+  font-weight: bold;
+  padding: 1em;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #44475a;
+}
+
+/*# sourceMappingURL=global.css.map */
