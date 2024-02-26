@@ -1,0 +1,48 @@
+---
+---
+
+<style lang="scss">
+nav {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid var(--primary);
+	padding: .5rem 0;
+	margin-inline: .5rem;
+	position: sticky;
+	top: 0;
+}
+
+a {
+	color: var(--text);
+	text-decoration: none;
+	padding: 1rem 1.5rem;
+
+	&:hover {
+		color: var(--primary);
+	}
+}
+
+span {
+	display: flex;
+	align-items: center;
+	font-family: 'FiraCode', monospace;
+	font-weight: bold;
+	margin-right: 1rem;
+
+	img {
+		border-radius: 10rem;
+		width: 3rem;
+		margin-right: .5rem;
+	}
+
+}
+</style>
+<nav>
+	<span>
+		<img src="/images/logo.jpg" alt="LuckJMG logo"/>
+		LuckJMG
+	</span>
+	<a href="/projects">Projects</a>
+	<a href="/blog">Blog</a>
+	<a href="/about">About</a>
+</nav>
