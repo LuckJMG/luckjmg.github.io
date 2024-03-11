@@ -1,0 +1,58 @@
+---
+import '../styles/global.css'
+---
+
+<style lang="scss">
+footer {
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid var(--primary);
+	padding: 2rem 0;
+	margin-inline: .5rem;
+
+	ul {
+		list-style: none;
+		padding: 0;
+		padding-left: .5rem;
+	}
+
+	h5 {
+		margin: .5rem 0;
+	}
+
+	p {
+		width: 20%;
+	}
+
+	a {
+		color: var(--accent);
+		text-decoration: none;
+
+		&:hover {
+			color: var(--primary);
+		}
+	}
+}
+</style>
+<footer>
+	<div>
+		<h5>Site</h5>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/projects">Projects</a></li>
+			<li><a href="/blog">Blog</a></li>
+			<li><a href="/about">About</a></li>
+		</ul>
+	</div>
+	<div>
+		<h5>Social</h5>
+		<ul>
+			<li><a href="https://github.com/LuckJMG">GitHub</a></li>
+			<li><a href="https://www.youtube.com/@luckjmg">YouTube</a></li>
+			<li><a href="https://twitter.com/LuckJMG">Twitter</a></li>
+		</ul>
+	</div>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+	</p>
+</footer>
