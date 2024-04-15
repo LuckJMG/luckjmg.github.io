@@ -1,0 +1,35 @@
+---
+import Default from '../layouts/default.astro'
+const { frontmatter } = Astro.props;
+---
+<style lang="scss" is:global>
+	.post {
+		margin-inline: 20%;
+		font-family: serif;
+
+		h1 {
+			font-size: 4rem;
+		}
+
+		h2 {
+			font-size: 2rem;
+		}
+
+		h3 {
+			font-size: 1rem;
+		}
+
+		h4 {
+			font-size: .5rem;
+		}
+
+		p, li {
+			padding-bottom: .5rem;
+		}
+	}
+</style>
+<Default pageTitle={`Blog - ${ frontmatter.title }`}>
+	<div class="post">
+		<slot />
+	</div>
+</Default>
